@@ -1,10 +1,6 @@
 
 
-    *** Routing with Express JS *** 
-
-
-    ** Response [ Server ] :- Server hmesha response deta hai  
-    In Short (req)
-
-    ** Request  [ Client ] :- Client hmesha request deta hai
-    IN Short (res)
+   1. Make file in folder 
+   2. Use path module
+   3. Get file names and print 
+   
