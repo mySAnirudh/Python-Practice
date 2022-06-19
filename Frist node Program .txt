@@ -1,0 +1,14 @@
+
+   
+   ** FIST node program ** 
+
+   You can directly write as U write in JS 
+
+   Code >> console.log("like")  
+   Output Show >> like
+
+
+   ** Why output show undefined : - Because it's print the value and not store then value 
+   
+
+   
