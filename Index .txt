@@ -1,43 +1,41 @@
-Before we start the actual exercise, we would like to give a brief idea about the 
-CSS Measurement Units.
-CSS supports a number of measurements including absolute units such as 
-inches, centimeters, points, and so on, as well as relative measures such as 
-percentages and em units. You need these values while specifying various 
-measurements in your Style rules e.g. border="1px solid red".
-We have listed out all the CSS Measurement Units along with proper Examples:
-Unit Description Example
-% Defines a measurement as a 
-percentage relative to another value, 
-typically an enclosing element.
-p {font-size: 16pt; line-height: 
-125%;}
-cm Defines a measurement in 
-centimeters.
-div {margin-bottom: 2cm;}
-em A relative measurement for the 
-height of a font in em spaces. 
-Because an em unit is equivalent to 
-the size of a given font, if you assign 
-a font to 12pt, each "em" unit would 
-be 12pt; thus, 2em would be 24pt.
-p {letter-spacing: 7em;}
-ex This value defines a measurement 
-relative to a font's x-height. The xheight is determined by the height of 
-the font's lowercase letter x.
-p {font-size: 24pt; line-height: 
-3ex;}
-in Defines a measurement in inches. p {word-spacing: .15in;}
-mm Defines a measurement in 
-millimeters.
-p {word-spacing: 15mm;}
-pc Defines a measurement in picas. A 
-pica is equivalent to 12 points; thus, 
-there are 6 picas per inch.
-p {font-size: 20pc;}
-pt Defines a measurement in points. A 
-point is defined as 1/72nd of an 
-inch.
-body {font-size: 18pt;}
-px Defines a measurement in screen 
-pixels.
-p {padding: 25px;}
+
+
+    *** Courser ***
+
+ The cursor property of CSS allows you to specify the type of cursor that should 
+be displayed to the user.
+One good usage of this property is in using images for submit buttons on forms. 
+By default, when a cursor hovers over a link, the cursor changes from a pointer 
+to a hand. However, it does not change form for a submit button on a form. 
+Therefore, whenever someone hovers over an image that is a submit button, it 
+provides a visual clue that the image is clickable. 
+The following table shows the possible values for the cursor property:
+Value Description
+auto Shape of the cursor depends on the context area it is over. For 
+example, an ‘I’ over text, a ‘hand’ over a link, and so on.
+crosshair A crosshair or plus sign.
+default An arrow.
+pointer A pointing hand (in IE 4 this value is hand).
+move The ‘I’ bar.
+e-resize The cursor indicates that an edge of a box is to be moved right 
+(east).
+ne-resize The cursor indicates that an edge of a box is to be moved up and 
+right (north/east).
+nwresize
+The cursor indicates that an edge of a box is to be moved up and 
+left (north/west).
+n-resize The cursor indicates that an edge of a box is to be moved up 
+(north).
+se-resize The cursor indicates that an edge of a box is to be moved down 
+and right (south/east).
+swresize
+The cursor indicates that an edge of a box is to be moved down 
+and left (south/west).
+s-resize The cursor indicates that an edge of a box is to be moved down 
+(south).
+w-resize The cursor indicates that an edge of a box is to be moved left 
+(west).
+text The I bar.
+wait An hour glass.
+help A question mark or balloon, ideal for use over help buttons.
+<url> The source of a cursor image file.
