@@ -1,30 +1,30 @@
 
 
-       **** ANIMATION ****
+    ***** OBJECTS *****
 
-    You can use JavaScript to create a complex animation having, but not limited to, the 
-following elements: 
- Fireworks 
- Fade effect 
- Roll-in or Roll-out 
- Page-in or Page-out 
- Object movements 
-In this chapter, we will see how to use JavaScript to create an animation. 
-JavaScript can be used to move a number of DOM elements (<img />, <div>, or any other 
-HTML element) around the page according to some sort of pattern determined by a logical 
-equation or function. 
-JavaScript provides the following functions to be frequently used in animation programs. 
- setTimeout (function, duration) - This function calls the function after duration 
-milliseconds from now. 
- setInterval (function, duration) - This function calls the function after every 
-duration milliseconds.
- clearTimeout (setTimeout_variable) - This function clears any timer set by the 
-setTimeout() function. 
-JavaScript can also set a number of attributes of a DOM object including its position on 
-the screen. You can set the top and the left attribute of an object to position it anywhere 
-on the screen. Following is the syntax for the same.
-// Set distance from left edge of the screen. 
-object.style.left = distance in pixels or points; 
-or
-// Set distance from top edge of the screen. 
-object.style.top = distance in pixels or points;
+    ES6 - Objects. JavaScript supports extending data types. JavaScript 
+    objects are a great way to define custom data types. An object is an 
+    instance which contains a set of key value pairs. Unlike primitive data
+     types, objects can represent multiple or complex values and can change
+      over their life time.
+
+
+    **** JavaScript ES6 Objects
+
+Creating Objects. Constructor functions optionally accept parameters. ...
+Accessing Object Properties
+Changing Object Properties
+Adding Object Properties
+Deleting Object Properties
+Comparing Objects. In JavaScript, each object you create points to a different memory address.
+Cloning Objects
+ES6 Shortcuts
+Conclusion
+
+
+JavaScript supports extending data types. JavaScript objects are a great way to define 
+custom data types.
+An object is an instance which contains a set of key value pairs. Unlike primitive data 
+types, objects can represent multiple or complex values and can change over their life 
+time. The values can be scalar values or functions or even array of other objects.
+The syntactic variations for defining an object is discussed further.
