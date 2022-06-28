@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let student = {
+        rollno:20,
+        name:'Prijin',
+        cgpa:7.2
+        }
+        // destructuring to already declared variable
+        let rollno;
+        ({rollno} = student)
+        console.log(rollno)
+        // assign default values to variables
+        let product ={ id:1001,price:2000} //discount is not product property
+        let {id,price,discount=.10} = product
+        console.log(id)
+        console.log(price)
+        console.log(discount)
+       </script>
+</body>
+</html>

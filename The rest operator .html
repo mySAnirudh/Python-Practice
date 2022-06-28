@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // rest operator with object destructuring
+         let customers= {
+         c1:101,
+         c2:102,
+         c3:103
+         }
+         let {c1,...others} = customers
+         console.log(c1)
+         console.log(others)
+         //nested objects
+         let emp = {
+         id:101,
+         address:{
+         city:'Mumbai',
+         pin:1234
+         }
+         }
+        let {address} = emp;
+        console.log(address)
+        let {address:{city,pin}} = emp
+console.log(city)
+ </script>
+        
+</body>
+</html>
