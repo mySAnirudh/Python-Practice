@@ -1,30 +1,34 @@
 
+ 
+     **** STRING ****
 
-    ***** OBJECTS *****
+  >> String in JS :- JavaScript strings are used for storing and manipulating 
+  text. A JavaScript string is zero or more characters written inside quotes.
+   You can use quotes inside a string, as long as they don't match the quotes 
+   surrounding the string: To find the length of a string, use the built-in 
+   length property
 
-    ES6 - Objects. JavaScript supports extending data types. JavaScript 
-    objects are a great way to define custom data types. An object is an 
-    instance which contains a set of key value pairs. Unlike primitive data
-     types, objects can represent multiple or complex values and can change
-      over their life time.
-
-
-    **** JavaScript ES6 Objects
-
-Creating Objects. Constructor functions optionally accept parameters. ...
-Accessing Object Properties
-Changing Object Properties
-Adding Object Properties
-Deleting Object Properties
-Comparing Objects. In JavaScript, each object you create points to a different memory address.
-Cloning Objects
-ES6 Shortcuts
-Conclusion
-
-
-JavaScript supports extending data types. JavaScript objects are a great way to define 
-custom data types.
-An object is an instance which contains a set of key value pairs. Unlike primitive data 
-types, objects can represent multiple or complex values and can change over their life 
-time. The values can be scalar values or functions or even array of other objects.
-The syntactic variations for defining an object is discussed further.
+    The String object lets you work with a series of characters; it wraps JavaScript’s string 
+primitive data type with a number of helper methods.
+As JavaScript automatically converts between string primitives and String objects, you can 
+call any of the helper methods of the String object on a string primitive.
+Use the following syntax to create a String object.
+var val = new String(string);
+The string parameter is a series of characters that has been properly encoded.
+String Properties
+Following is a list of the properties of String object and its description. 
+Property Description
+constructor Returns a reference to the String function that created the object
+length Returns the length of the string
+prototype The prototype property allows you to add properties and methods 
+to an object
+Constructor
+A constructor returns a reference to the string function that created the instance's 
+prototype.
+Syntax
+string.constructor
+Return Value
+Returns the function that created this object’s instance. 
+Example: String constructor property
+var str = new String( "This is string" );
+console.log("str.constructor is:" + str.constructor)
