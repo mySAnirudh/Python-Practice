@@ -1,0 +1,21 @@
+ /* @font-face {
+    font-family:Samrat;
+    src: url('abcs.ttf');
+}
+h1{
+    font-family:Samrat;
+}
+p{
+    font-family: Hello Samrat;
+} */
+
+@font-face {
+    font-family: Samrat;
+    src: url("Amsterdam\ Laviera.ttf");
+}
+h2{
+    font-family: Samrat;
+}
+p{
+ font-family: Samrat;
+}
