@@ -1,0 +1,36 @@
+ /* #Parent{
+    color: red;
+    border: 1px solid green;
+    width: 400pt;
+}
+ #Chield{
+    color: green;
+    border: 3px solid rebeccapurple;
+    /* width: 600pt; */
+    /* width: 40%;
+} */
+ 
+/* #Parent{
+    font-size: 30px;
+ }
+ #Chield{
+     /* font-size: 05em; */
+     /* font-size: 0.5em;
+ }  */ 
+
+
+/* Rem :- It's make haf of your mney */
+
+/*  REM :- It's also makes file size your device is  */
+ 
+html{
+    font-size: 10px;
+}
+   #Parent{
+       font-size: 4rem;
+   }
+   #Chield{
+       font-size: 2rem;
+   }
+
+   /* It's mostly use for All device Mobile like */

@@ -1,0 +1,14 @@
+Absolute Units in CSS 
+Cm
+Mm
+Inch
+Px (1 Inch=96px)
+Pt(1inch=72pt)
+Pc(1inch=12pt)
+
+Relative Unitsin CSS
+Em - Em is relative to the size of it's direct parent
+Rem - rem is only relative to root (html tag)size
+Vh - 1% of View port height
+Vw - 1% of view port width
+% - relative to parent
