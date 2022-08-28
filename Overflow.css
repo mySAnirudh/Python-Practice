@@ -1,0 +1,11 @@
+#ovr{
+    background-color: whitesmoke;
+    border: 10px solid gray;
+    width: 500px;
+    height: 300px;
+    /* overflow: visible; by defolt */
+    /* overflow: hidden;  */
+  overflow-x:hidden ;
+  overflow-y: visible;
+  /* overflow: auto; It's best of use it's diside where it's use or not  */
+}
