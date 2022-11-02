@@ -1,0 +1,22 @@
+
+     ** If-else **
+
+
+While writing a program, there may be a situation when you need to adopt one 
+out of a given set of paths. In such cases, you need to use conditional 
+statements that allow your program to make correct decisions and perform right 
+actions.
+JavaScript supports conditional statements which are used to perform different 
+actions based on different conditions. Here we will explain the 
+if..else statement.
+
+
+ if statement
+ if...else statement
+ if...else if... statement
+
+
+if (expression){
+ Statement(s) to be executed if expression is true
+}
+
