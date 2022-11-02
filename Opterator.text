@@ -1,0 +1,141 @@
+
+   **** Operator ****
+
+    What is an Operator?
+Let us take a simple expression 4 + 5 is equal to 9. Here 4 and 5 are called 
+operands and ‘+’ is called the operator. JavaScript supports the following 
+types of operators.
+
+
+    ** Operator **
+     1. Arithmetic Operator
+
+     2. Logical Operator      // Relational Operator 
+
+     3. Assignment Operator
+
+     4. Comparison Operator
+
+     5. Conditional Operator  // Ternary Operator
+
+
+   Arithmetic Operators
+Arithmetic operators are used to perform mathematical operations between numeric operands.
+
+Operator	Description
++	Adds two numeric operands.
+-	Subtract right operand from left operand
+*	Multiply two numeric operands.
+/	Divide left operand by right operand.
+%	Modulus operator. Returns remainder of two operands.
+++	Increment operator. Increase operand value by one.
+--	Decrement operator. Decrease value by one.
+
+
+
+
+
+ Arithmetic Operators
+ Comparison Operators
+ Logical (or Relational) Operators
+ Assignment Operators
+ Conditional (or ternary) Operators
+
+Let’s have a look at all the operators one by one.
+
+Arithmetic Operators
+JavaScript supports the following arithmetic operators:
+Assume variable A holds 10 and variable B holds 20, then:
+S. No. Operator and Description
+1
++ (Addition)
+Adds two operands
+Ex: A + B will give 30
+2
+- (Subtraction)
+Subtracts the second operand from the first
+Ex: A - B will give -10
+3
+* (Multiplication)
+Multiply both operands
+Ex: A * B will give 200
+4 / (Division)
+Divide the numerator by the denominator
+Ex: B / A will give 2
+5
+% (Modulus)
+Outputs the remainder of an integer division
+Ex: B % A will give 0
+6
+++ (Increment)
+Increases an integer value by one
+Ex: A++ will give 11
+7
+-- (Decrement)
+Decreases an integer value b
+Ex: A-- will give 9
+
+Note: Addition operator (+) works for Numeric as well as Strings. e.g. "a" + 10 
+will give "a10".
+Example
+The following code shows how to use arithmetic operators in JavaScript.
+<html>
+<body>
+<script type="text/javascript">
+<!--
+var a = 33;
+var b = 10;
+var c = "Test";
+var linebreak = "<br />";
+document.write("a + b = ");
+result = a + b;
+document.write(result);
+document.write(linebreak);
+
+document.write("a - b = ");
+result = a - b;
+document.write(result);
+document.write(linebreak);
+document.write("a / b = ");
+result = a / b;
+document.write(result);
+document.write(linebreak);
+document.write("a % b = ");
+result = a % b;
+document.write(result);
+document.write(linebreak);
+document.write("a + b + c = ");
+result = a + b + c;
+document.write(result);
+document.write(linebreak);
+a = a++;
+document.write("a++ = ");
+result = a++;
+document.write(result);
+document.write(linebreak);
+b = b--;
+document.write("b-- = ");
+result = b--;
+document.write(result);
+document.write(linebreak);
+
+//-->
+</script>
+<p>Set the variables to different values and then try...</p>
+</body>
+</html>
+
+
+Output
+a + b = 43
+a - b = 23
+a / b = 3.3
+a % b = 3
+a + b + c = 43Test
+a++ = 33
+b-- = 10
+Set the variables to different values and then try...
+
+
+Other Operator See One by One
+
