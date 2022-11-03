@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>JavaScript Array some Method</title>
+</head>
+<body>
+<script type="text/javascript">
+if (!Array.prototype.some)
+{
+ Array.prototype.some = function(fun /*, thisp*/)
+ {
+ var len = this.length;
+ if (typeof fun != "function")
+ throw new TypeError();
+ var thisp = arguments[1];
+ for (var i = 0; i < len; i++)
+ {
+ if (i in this &&
+ fun.call(thisp, this[i], i, this))
+ return true;
+ }
+ return false;
+ };
+}
+function isBigEnough(element, index, array) {
+ return (element >= 10);
+}
+var retval = [2, 5, 8, 1, 4].some(isBigEnough);
+document.write("Returned value is : " + retval );
+var retval = [12, 5, 8, 1, 4].some(isBigEnough);
+document.write("<br />Returned value is : " + retval );
+</script>
+</body>
+</html>
