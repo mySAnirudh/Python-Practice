@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>JavaScript Array indexOf Method</title>
+</head>
+<body>
+<script type="text/javascript">
+if (!Array.prototype.indexOf)
+{
+ Array.prototype.indexOf = function(elt /*, from*/)
+ {
+ var len = this.length;
+ var from = Number(arguments[1]) || 0;
+ from = (from < 0)
+ ? Math.ceil(from)
+ : Math.floor(from);
+ if (from < 0)
+ from += len;
+ for (; from < len; from++)
+ {
+ if (from in this &&
+ this[from] === elt)
+ return from;
+ }
+ return -1;
+ };
+}
+function printBr(element, index, array) {
+ document.write("<br />[" + index + "] is " + element ); 
+}
+var index = [12, 5, 8, 130, 44].indexOf(8);
+document.write("index is : " + index ); 
+var index = [12, 5, 8, 130, 44].indexOf(13);
+document.write("<br />index is : " + index ); 
+</script>
+</body>
+</html>
