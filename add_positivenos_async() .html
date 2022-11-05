@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add_positivenos_async(n1, n2) {
+        let p = new Promise(function (resolve, reject) {
+        if (n1 >= 0 && n2 >= 0) {
+        //do some complex time consuming work
+        resolve(n1 + n2)
+        }
+        else
+        reject('NOT_Postive_Number_Passed')
+    })
+ return p;
+ }
+ add_positivenos_async(10, 20)
+ .then(successHandler) // if promise resolved
+ .catch(errorHandler);// if promise rejected
+ 
+ add_positivenos_async(-10, -20)
+ .then(successHandler) // if promise resolved
+ .catch(errorHandler);// if promise rejected
+ 
+ function errorHandler(err) {
+ console.log('Handling error', err)
+ }
+ function successHandler(result) {
+ console.log('Handling success', result)
+ }
+ console.log('end')
+ </script>
+</body>
+</html>

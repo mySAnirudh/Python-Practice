@@ -1,34 +1,39 @@
-
  
-     **** STRING ****
+  
+       **** PROMISES ****
 
-  >> String in JS :- JavaScript strings are used for storing and manipulating 
-  text. A JavaScript string is zero or more characters written inside quotes.
-   You can use quotes inside a string, as long as they don't match the quotes 
-   surrounding the string: To find the length of a string, use the built-in 
-   length property
+   >>A JavaScript Promise object contains both the producing code and calls
+    to the consuming code: When the executing code obtains the result, it
+     should call one of the two callbacks: The Promise object supports two
+      properties: state and result. While a Promise object is "pending"
+       (working), the result is undefined. 
 
-    The String object lets you work with a series of characters; it wraps JavaScript’s string 
-primitive data type with a number of helper methods.
-As JavaScript automatically converts between string primitives and String objects, you can 
-call any of the helper methods of the String object on a string primitive.
-Use the following syntax to create a String object.
-var val = new String(string);
-The string parameter is a series of characters that has been properly encoded.
-String Properties
-Following is a list of the properties of String object and its description. 
-Property Description
-constructor Returns a reference to the String function that created the object
-length Returns the length of the string
-prototype The prototype property allows you to add properties and methods 
-to an object
-Constructor
-A constructor returns a reference to the string function that created the instance's 
-prototype.
-Syntax
-string.constructor
-Return Value
-Returns the function that created this object’s instance. 
-Example: String constructor property
-var str = new String( "This is string" );
-console.log("str.constructor is:" + str.constructor)
+
+
+    Promises allow you to attach callback handlers to handle the future 
+    asynchronous success value or failure reason.
+Promises are often used to handle asynchronous tasks in JavaScript.
+Before promises were introduced natively in JavaScript, we used a lot of 
+callbacks for asynchronous tasks.
+Promises executes code in order and must finish executing code before running 
+the next one.
+Promises provide catch mechanism, which callbacks do not have.
+A promise will only return a value once, which means that if a promise returns
+ an error, it will only return it once.
+A lot of developers might still think that callbacks and promises are the same,
+ but in fact, they are not.
+Promises resemble callbacks in some ways, but with an easier to follow syntax 
+and a better understanding of the code.
+Sometimes we might hear that a promise is settled. That means that this 
+promise is either fulfilled or rejected, settled is not a state but it’s
+ used just for convenience.
+
+    Promise Syntax
+The Syntax related to promise is mentioned below where, p is the promise 
+object, resolve is the function that should be called when the promise 
+executes 
+successfully and reject is the function that should be called when the
+ promise encounters 
+an error.
+
+  
