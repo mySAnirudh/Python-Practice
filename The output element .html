@@ -1,0 +1,16 @@
+<!DOCTYPE HTML><html>
+ <script type="text/javascript">
+ function showResult()
+ {
+ x = document.forms["myform"]["newinput"].value;
+ document.forms["myform"]["result"].value=x;
+ }
+ </script>
+ <body>
+ <form action="/cgi-bin/html5.cgi" method="get" name="myform">
+ Enter a value : <input type="text" name="newinput" />
+ <input type="button" value="Result" onclick="showResult();" />
+ <output name="result"/>
+ </form>
+ </body>
+</html>
