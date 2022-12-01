@@ -1,0 +1,28 @@
+
+    **** HTML COLORS ****
+
+    
+
+Colors are very important to give a good look and feel to your website. You can specify 
+colors on page level using <body> tag or you can set colors for individual tags 
+using bgcolor attribute.
+The <body> tag has following attributes which can be used to set different colors:
+ bgcolor - sets a color for the background of the page.
+ text - sets a color for the body text.
+ alink - sets a color for active links or selected links.
+ link - sets a color for linked text.
+ vlink - sets a color for visited links - that is, for linked text that you have 
+already clicked on.
+HTML Color Coding Methods
+There are following three different methods to set colors in your web page:
+ Color names - You can specify color names directly like green, blue or red.
+ Hex codes - A six-digit code representing the amount of red, green, and blue 
+that makes up the color.
+ Color decimal or percentage values - This value is specified using the rgb() 
+property.
+Now we will see these coloring schemes one by one.
+HTML Colors -Color Names
+You can specify direct a color name to set text or background color. W3C has listed 16 
+basic color names that will validate with an HTML validator but there are over 200 different 
+color names supported by major browsers.
+Note: Check a complete list of HTML Color Name.
