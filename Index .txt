@@ -1,0 +1,17 @@
+
+
+*** Padding ***
+
+The padding property allows you to specify how much space should appear 
+between the content of an element and its border:
+The value of this attribute should be either a length, a percentage, or the word 
+inherit. If the value is inherit, it will have the same padding as its parent 
+element. If a percentage is used, the percentage is of the containing box.
+The following CSS properties can be used to control lists. You can also set 
+different values for the padding on each side of the box using the following 
+properties:
+ The padding-bottom specifies the bottom padding of an element.
+ The padding-top specifies the top padding of an element.
+ The padding-left specifies the left padding of an element.
+ The padding-right specifies the right padding of an element.
+ The padding serves as shorthand for the preceding properties.
