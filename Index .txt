@@ -1,17 +1,41 @@
 
 
-*** Padding ***
+    *** Courser ***
 
-The padding property allows you to specify how much space should appear 
-between the content of an element and its border:
-The value of this attribute should be either a length, a percentage, or the word 
-inherit. If the value is inherit, it will have the same padding as its parent 
-element. If a percentage is used, the percentage is of the containing box.
-The following CSS properties can be used to control lists. You can also set 
-different values for the padding on each side of the box using the following 
-properties:
- The padding-bottom specifies the bottom padding of an element.
- The padding-top specifies the top padding of an element.
- The padding-left specifies the left padding of an element.
- The padding-right specifies the right padding of an element.
- The padding serves as shorthand for the preceding properties.
+ The cursor property of CSS allows you to specify the type of cursor that should 
+be displayed to the user.
+One good usage of this property is in using images for submit buttons on forms. 
+By default, when a cursor hovers over a link, the cursor changes from a pointer 
+to a hand. However, it does not change form for a submit button on a form. 
+Therefore, whenever someone hovers over an image that is a submit button, it 
+provides a visual clue that the image is clickable. 
+The following table shows the possible values for the cursor property:
+Value Description
+auto Shape of the cursor depends on the context area it is over. For 
+example, an ‘I’ over text, a ‘hand’ over a link, and so on.
+crosshair A crosshair or plus sign.
+default An arrow.
+pointer A pointing hand (in IE 4 this value is hand).
+move The ‘I’ bar.
+e-resize The cursor indicates that an edge of a box is to be moved right 
+(east).
+ne-resize The cursor indicates that an edge of a box is to be moved up and 
+right (north/east).
+nwresize
+The cursor indicates that an edge of a box is to be moved up and 
+left (north/west).
+n-resize The cursor indicates that an edge of a box is to be moved up 
+(north).
+se-resize The cursor indicates that an edge of a box is to be moved down 
+and right (south/east).
+swresize
+The cursor indicates that an edge of a box is to be moved down 
+and left (south/west).
+s-resize The cursor indicates that an edge of a box is to be moved down 
+(south).
+w-resize The cursor indicates that an edge of a box is to be moved left 
+(west).
+text The I bar.
+wait An hour glass.
+help A question mark or balloon, ideal for use over help buttons.
+<url> The source of a cursor image file.
