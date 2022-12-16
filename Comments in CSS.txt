@@ -1,0 +1,10 @@
+           
+           [ !! CSS : Cascading Style Sheet  !!]
+
+ Comments in CSS :-
+
+- Comments is live in every programming language.
+
+- It's use when you change something in code or comment the code.
+
+-  (.../* Comments */   ...)
