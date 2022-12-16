@@ -1,0 +1,13 @@
+           
+           [ !! CSS : Cascading Style Sheet  !!]
+
+Basics of CSS :- 
+
+ Selectors selects for HTML   / Prototype / Value
+
+     P{ 
+           color= blue;
+      }
+       
+
+  - Font-size: 12px;
