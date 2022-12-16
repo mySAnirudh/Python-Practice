@@ -1,0 +1,17 @@
+
+@font-face{
+    font-family: Samrat;
+    src: url("Amsterdam\ Laviera.ttf");
+}
+
+h3{
+    font-family: font-family:'Samrat', 'Ephesis', cursive,Samrat;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+p{
+    font: italic small-caps 600 40px "Samrat";
+}
+/* Missing is ok but order same */
