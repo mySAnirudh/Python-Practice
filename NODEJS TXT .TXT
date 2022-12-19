@@ -1,19 +1,16 @@
 
+   ** NODEMOON ** 
+    
+   1. What is Nodemon package?
 
-  ** All About Package.json **
+   2. How to install Nodemon?
 
-  1. What is Package.json
-  2. How to make it?
-  3. Check the file in detail
-  4. Install external Package
-  
-  1. What is Package.json
-  -> Ye project ki details rakhati hai, which is related to codding. e.g. project version, project git, 
-    project name etc Package etc..
+   3. How to use it?
+ 
+   ** Nodemon || Time saving module 
 
-  -> Project ki codding se related details rakhati hai
+   -> Nodemon module use karke ham time save kar sakte hai
 
-
-  2. How to make it?
-  -> Write in terminal (npm init "which means initialization") to install the Package
-  -> NPM Stands for :- Node Package Managers 
+   -> For install Nodemon Cammand :-(npm i nodemon) use (-g for global install) 
+    when we use -g then it's install globali in out system 
+    so use (npm i nodemon -g)
