@@ -1,6 +1,19 @@
 
 
-   1. Make file in folder 
-   2. Use path module
-   3. Get file names and print 
-   
+  ** All About Package.json **
+
+  1. What is Package.json
+  2. How to make it?
+  3. Check the file in detail
+  4. Install external Package
+  
+  1. What is Package.json
+  -> Ye project ki details rakhati hai, which is related to codding. e.g. project version, project git, 
+    project name etc Package etc..
+
+  -> Project ki codding se related details rakhati hai
+
+
+  2. How to make it?
+  -> Write in terminal (npm init "which means initialization") to install the Package
+  -> NPM Stands for :- Node Package Managers 

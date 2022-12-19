@@ -1,0 +1,28 @@
+{
+  "name": "packages",
+  "version": "1.0.0",
+  "description": "this is npm first packegs of my noder",
+  "main": "Index.js",
+  "scripts": {
+    "test": "this is test commang"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "this",
+    "is",
+    "keybwords",
+    "of",
+    "the",
+    "npm",
+    "pckage"
+  ],
+  "author": "samrat singh",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^4.2.1",
+    "color-terminal": "^0.0.3-4"
+  }
+}
