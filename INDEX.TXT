@@ -1,8 +1,0 @@
-
-
-      *** Background Color ***
-
-    By default, your webpage background is white in color. You may not like it, but no worries. 
-HTML provides you following two good ways to decorate your webpage background.
- Html Background with Colors
- Html Background with Images
